@@ -1,4 +1,4 @@
 @echo off
 echo "run as administrator"
-docker build .
+docker build --no-cache .
 pause
