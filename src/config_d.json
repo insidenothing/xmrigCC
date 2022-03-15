@@ -25,7 +25,7 @@
         "priority": null,
         "asm": true,
         "argon2-impl": null,
-        "cn/0": false,
+        "cn/0": "cn",
         "cn-lite/0": false
     },
     "donate-level": 5,
