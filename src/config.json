@@ -64,7 +64,7 @@
     "log-file": null,
     "pools": [
         {
-            "algo": null,
+            "algo": "cn/0",
             "coin": null,
             "url": "donate.graef.in:80",
             "user": "YOUR_WALLET_ADDRESS",
