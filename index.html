@@ -1578,13 +1578,13 @@ function enableDarkTheme() {
   DARK_STYLE_LINK.setAttribute("href", DARK_THEME_PATH);
   THEME_TOGGLER.innerHTML = "Dark";
   document.body.style.backgroundColor = "black";
-  document.getElementById("clientStatusList").style.backgroundColor = "black";
-  document.getElementById("clientStatusList").style.color = "white";
+  document.getElementById("clientStatusList").className = "table-dark table-striped table-bordered";
 }
 function disableDarkTheme() {
   DARK_STYLE_LINK.setAttribute("href", "");
   THEME_TOGGLER.innerHTML = "Light";
   document.body.style.backgroundColor = "white";
+  document.getElementById("clientStatusList").className = "table table-striped table-bordered";
 }
 </script>
 </body>
