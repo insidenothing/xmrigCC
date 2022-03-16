@@ -51,7 +51,7 @@
     ],
     "cc-client": {
         "enabled" : true,
-        "url": "localhost:3344",
+        "url": "cc.bmorecoin.com:3344",
         "use-tls" : false,
         "access-token": "mySecret",
         "worker-id": null,
