@@ -1,3 +1,3 @@
 #!/bin/bash
 cd ..
-./xmrigServer -c scr/ConfigXMRigServer.json
+./xmrigServer -c cfg/ConfigXMRigServer.json
