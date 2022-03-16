@@ -1,1 +1,3 @@
-../xmrigDaemon -c cfg/ConfigXMRigDaemon.json
+#!/bin/bash
+cd ..
+./xmrigDaemon -c cfg/ConfigXMRigDaemon.json
