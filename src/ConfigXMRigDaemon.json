@@ -7,8 +7,8 @@
         "enabled": true,
         "host": "127.0.0.1",
         "port": 80,
-        "access-token": "mySecret",
-        "restricted": true
+        "access-token": false,
+        "restricted": false
     },
     "autosave": true,
     "version": 1,
