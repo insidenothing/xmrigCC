@@ -4,11 +4,11 @@
         "worker-id": null
     },
     "http": {
-        "enabled": true,
-        "host": "0.0.0.0",
-        "port": 80,
-        "access-token": "mySecret",
-        "restricted": false
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": 0,
+        "access-token": null,
+        "restricted": true
     },
     "autosave": true,
     "version": 1,
