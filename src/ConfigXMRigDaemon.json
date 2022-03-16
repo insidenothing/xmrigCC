@@ -5,9 +5,9 @@
     },
     "http": {
         "enabled": true,
-        "host": "127.0.0.1",
+        "host": "0.0.0.0",
         "port": 80,
-        "access-token": false,
+        "access-token": "mySecret",
         "restricted": false
     },
     "autosave": true,
@@ -25,6 +25,9 @@
         "priority": null,
         "asm": true,
         "argon2-impl": null,
+        "cn": [
+            [1, 0]
+        ],
         "cn/0": "cn",
         "cn-lite/0": false
     },
