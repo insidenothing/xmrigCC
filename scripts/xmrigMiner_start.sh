@@ -1,3 +1,3 @@
 #!/bin/bash
 cd ..
-./xmrigMiner -c src/ConfigXMRigMiner.json
+./xmrigMiner -c cfg/ConfigXMRigMiner.json
