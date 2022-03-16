@@ -1,1 +1,1 @@
-./xmrigDaemon -c src/config_d.json
+./xmrigDaemon -c src/ConfigXMRigDaemon.json
