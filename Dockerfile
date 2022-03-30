@@ -1,9 +1,9 @@
-FROM alpine:3.13
+FROM alpine:3.12
 
 RUN apk add --no-cache git make cmake libstdc++ gcc g++ automake libtool autoconf linux-headers && \
     rm -rf /var/lib/apt/lists/*
 
-RUN git clone https://github.com/insidenothing/xmrigCC && \
+RUN git clone https://github.com/BMoreToken/xmrigCC && \
         cd xmrigCC && \
         cd scripts && \
         ./build_deps.sh && \
